@@ -1,0 +1,66 @@
+.container {
+    text-align: center;
+  }
+  
+  .board {
+      margin: 20px auto;
+      border: 2px solid black;
+      border-radius: 10px;
+      width: 328px;
+      height: 328px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      object-fit: contain;
+      box-sizing: border-box;
+      gap: 5px;
+      padding: 5px;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  .cell:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #message {
+    font-size: 24px;
+  }
+  
+  #restartButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .x {
+    background-image: url(img/x.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .o {
+    background-image: url(img/o.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .xTurnStyle {
+    background-color: rgb(34,177,76);
+  }
+
+  .oTurnStyle {
+    background-color: orange;
+  }
